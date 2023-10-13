@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./styles.css">
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
@@ -15,46 +16,61 @@
     <title>Ticket Olympus</title>
   </head>
 
-  <body>
+  <body> 
        <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-white">
-    <div class="container-fluid">
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-mdb-toggle="collapse"
-        data-mdb-target="#navbarExample01"
-        aria-controls="navbarExample01"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <i class="fas fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarExample01">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item active">
-            <a class="nav-link" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!-- Navbar -->
+       <nav class="navbar navbar-expand-lg navbar-light bg-black">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarExample01"
+            aria-controls="navbarExample01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarExample01">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <img
+                  class="d-block rounded-circle"
+                  src="../img/Logo_Olympus.png"
+                  alt="Logo"
+                  srcset=""
+                  width="100px"
+                />
+              </li>
+            </ul>
+          </div>
+          <div class="collapse navbar-collapse" id="navbarExample01">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 mr-0">
+              <li class="nav-item active">
+                <a class="nav-link" aria-current="page" href="../index.html">
+                  <h3>Home</h3>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><h3>About Us</h3></a>
+              </li>
+              <li class="nav-item mx-auto mb-2 mb-lg-0">
+                <a class="nav-link" href="#"><h3>Events</h3></a>
+              </li>
+              <li class="nav-item mx-auto mb-2 mb-lg-0">
+                <a class="nav-link" href="./pages/login.html"><h3>Login</h3></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  
 
-      <br><br><br>
+  <!-- Navbar -->
+      <br>
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <h1>Ticket Olympus</h1>
             <p>
               <a href="/tickets" class="btn btn-primary">View Tickets</a>
             </p>
