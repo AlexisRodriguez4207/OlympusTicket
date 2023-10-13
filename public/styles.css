@@ -1,0 +1,9 @@
+/* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .fa-bars,
+.navbar-scroll .navar-brand .navbar-center {
+  color: #4f4f4f;
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+}
